@@ -37,6 +37,20 @@
             text-decoration: none;
             color: blue;
         }
+        .game-container {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+        }
+        iframe {
+            width: 100%;
+            max-width: 800px;
+            height: 600px;
+            border: none;
+            overflow: hidden;
+            display: block;
+        }
     </style>
 </head>
 <body>
@@ -47,6 +61,11 @@
 <p class="solution">¿Cómo lo podemos evitar?</p>
 <p>Tirando basura en los tachos, si veo un pez no lo cojo, no toco las <span class="highlight">medusas</span>.</p>
 <img src="/playas/imagenes/IMG_1163.jpg" alt="Playa contaminada con basura">
-<a href="/playas/index.html" class="back-link">⬅ Volver al inicio</a>
+
+<div class="game-container">
+    <iframe src="playas/juego/Index.html" title="Juego de Reciclaje"></iframe>
+</div>
+
+<a href="playas/index.html" class="back-link">⬅ Volver al inicio</a>
 </body>
 </html>
